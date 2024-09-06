@@ -17,7 +17,6 @@ const preview: Preview = {
 }
 
 setup((app) => {
-
   const i18n = createI18n({
     locale: 'en',
     messages: {
@@ -26,11 +25,7 @@ setup((app) => {
     }
   })
 
-  app.use(MyPlugin);
-  app.component('my-component', MyComponent);
-  app.mixin({
-    /* My mixin */
-  });
+  app.use(i18n);
 });
 
 export default preview
