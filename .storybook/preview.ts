@@ -2,8 +2,8 @@ import type { Preview } from '@storybook/vue3'
 import { setup } from '@storybook/vue3';
 import { createI18n } from 'vue-i18n';
 
-import messageEn from '../src/locale/en'
-import messageFr from '../src/locale/fr'
+import messageEn from '../src/locales/en'
+import messageFr from '../src/locales/fr'
 
 const preview: Preview = {
   parameters: {

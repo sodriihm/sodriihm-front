@@ -7,8 +7,8 @@ import { routes } from 'vue-router/auto-routes'
 import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura';
 
-import messageEn from './locale/en'
-import messageFr from './locale/fr'
+import messageEn from './locales/en'
+import messageFr from './locales/fr'
 
 import App from './App.vue'
 
